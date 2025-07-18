@@ -20,7 +20,7 @@ provider "google" {
 resource "google_sql_database_instance" "metadata-db-eu" {
   name = "metadata-db-eu"
 
-  database_version = "POSTGRES_16"
+  database_version = "POSTGRES_17"
   root_password    = var.db_password
 
   settings {
